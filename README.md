@@ -34,11 +34,7 @@
 ### 2.2 임계값 조정 (Threshold Tuning)
 기본 임계값(0.5)에서는 불량 검출력이 떨어지므로, 아래 조건을 만족하는 **최적의 임계값**을 탐색했습니다.
 
-$$
-\text{Maximize } F1\text{-score} \quad \text{subject to } \begin{cases} \text{Recall} \ge \text{target\_recall} \\ \text{Accuracy} \ge \text{target\_acc} \end{cases}
-$$
-
-- 이를 통해 **불량 검출 능력(Recall)**과 **판별 효율(F1)**을 동시에 확보했습니다.
+이를 통해 **불량 검출 능력(Recall)**과 **판별 효율(F1)**을 동시에 확보했습니다.
 
 ---
 
